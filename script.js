@@ -19,13 +19,13 @@ if (document.getElementsByClassName("fralda") = document.getElementsByID("p")){
 }*/
 
 
-let fraldaPequena = 11
+var fraldaPequena = 11
 let fraldaMedia = 25
 let fraldaGrande = 30
 let cerveja = 0
 let refrigerante = 0
 
-if (document.getElementsByClassName("fralda") = document.getElementsByID("p")){
+/*if (document.getElementsByClassName("fralda") = document.getElementsByID("p")){
 fraldaPequena = fraldaPequena - 1}
     if (fraldaPequena = 0){
         document.getElementById("p").disabled = true;
@@ -33,4 +33,16 @@ fraldaPequena = fraldaPequena - 1}
 
 
 
-console.log(fraldaPequena)
+console.log(fraldaPequena)*/
+
+function fraldaPe(){
+
+    fraldaPequena = fraldaPequena-1
+    console.log(fraldaPequena)
+    if (fraldaPequena = 0)
+        document.getElementById(p).disabled=true
+return (fraldaPequena)
+
+
+
+}
